@@ -4,6 +4,7 @@ Date: 9/24/24
 Description: More of f-strings, inputs, and numbers/ops
 '''
 print("My first commit!")
+
 my_int = 5
 my_float = 7.44
 print(f"{my_int} {my_float}")
