@@ -47,11 +47,25 @@ print(r'''
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠛⠛⠋⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ''')
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print('Problem 2'.center(20,'-'))
 distance = 173.8
-mpg = float(input("How many miles per gallon does you car get? "))
+mpg = int(input("How many miles per gallon does you car get? "))
 gallon_cost = float(input("How much doas a gallon of gas cost where you live? "))
-hold = float(input("How many gallons of gas does your car hold? "))
+hold = int(input("How many gallons of gas does your car hold? (usually 12-18) "))
 needed = distance / mpg
 tanks = needed / hold
 total_cost = tanks * hold * gallon_cost
