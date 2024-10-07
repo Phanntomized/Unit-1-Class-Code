@@ -1,3 +1,5 @@
+name = input("Name: ")
+date = input("Date (mm/dd/yy): ")
 noun1 = input("Enter a noun: ")
 verb1 = input("Enter a verb: ")
 verb1plural = input("Enter the same verb again but plural: ")
@@ -29,6 +31,8 @@ verb5 = input("Enter a verb: ")
 noun8 = input("Enter a noun: ")
 adjective4 = input("Enter an adjective: ")
 
+print(name.title)
+print(date)
 print(f"Once upon a time there was a {noun1} who really liked to {verb1}. \n"
       f"In fact, they liked {verb1plural} so much that they couldn't stop, even when their {adjective0} mother called them home for dinner. \n"
       f"Their mother started getting concerned with {noun1}'s addiction to {verb1plural}, that she banned {noun1} from ever {verb1plural} again. \n"
