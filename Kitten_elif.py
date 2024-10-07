@@ -1,3 +1,9 @@
+'''
+Name: Phann  Boon
+Date: 10/7/24
+Description: Unit 3 Homework 1
+'''
+
 import time
 age = float(input("How old is the cat? (months) "))
 kitten = age <= 6
