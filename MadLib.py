@@ -31,7 +31,7 @@ verb5 = input("Enter a verb: ")
 noun8 = input("Enter a noun: ")
 adjective4 = input("Enter an adjective: ")
 
-print(name.title)
+print(name.title())
 print(date)
 print(f"Once upon a time there was a {noun1} who really liked to {verb1}. \n"
       f"In fact, they liked {verb1plural} so much that they couldn't stop, even when their {adjective0} mother called them home for dinner. \n"
