@@ -1,9 +1,9 @@
 import time
 age = float(input("How old is the cat? (months) "))
 kitten = age <= 6
-teen = kitten < age <= 11
-adult = teen < age <= 96
-senior = adult < age < 336
+teen = 7 < age <= 11
+adult = 12 < age <= 96
+senior = 97 < age < 336
 dead = 337 < age
 
 print('Approach 1'.center(20,'-'))
