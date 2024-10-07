@@ -16,7 +16,7 @@ elif adult:
 elif senior:
     print("Price: $85")
 elif dead:
-    print(Dead)
+    print("Dead")
 
 time.sleep(3)
 print('Approach 2'.center(20,'-'))
@@ -29,7 +29,7 @@ elif teen:
 elif kitten:
     print("Price: $250")
 elif dead:
-    print(Dead)
+    print("Dead")
 
 time.sleep(3)
 print('Approach 3'.center(20,'-'))
@@ -42,7 +42,7 @@ if adult:
 if senior:
     print("Price: $85")
 if dead:
-    print(Dead)
+    print("Dead")
 
 time.sleep(3)
 print('Approach 4'.center(20,'-'))
@@ -55,4 +55,4 @@ if teen:
 if kitten:
     print("Price: $250")
 if dead:
-    print(Dead)
+    print("Dead")
