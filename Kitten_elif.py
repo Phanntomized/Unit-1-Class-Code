@@ -6,9 +6,9 @@ Description: Unit 3 Homework 1
 
 age = float(input("How old is the cat? (months) "))
 kitten = age <= 6
-teen = 7 < age <= 11
-adult = 12 < age <= 95
-senior = 96 < age
+teen = 7 <= age <= 11
+adult = 12 <= age <= 95
+senior = 96 <= age
 
 if kitten:
     print("Price: $250")
